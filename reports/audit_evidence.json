@@ -1,0 +1,11 @@
+{
+  "project": "qmoosa-hyperperps",
+  "commit_sha": "fba7a1da149738196d270ac1d73223f98cbae5fa",
+  "timestamp": "2026-10-26T19:56:11.125878Z",
+  "score": 100,
+  "hackathon": "Somnia Network: dreamDEX Perps Builder Bounty",
+  "track": "Trading Bots, AI Agents & Perp DEX Developer Tools",
+  "blockchain": "Somnia Network L1 (Tokyo Testnet)",
+  "contract": "SomniaPerpVault.sol",
+  "reality_check_output": "======================================================================\n    REALITY CHECK HARNESS: qmoosa-hyperperps ($QPERP)\n    Chain: Somnia Network L1 (Tokyo Testnet)\n======================================================================\n[PASS] Gate 1: Conway Non-Linear Invariant State Engine verified (+25)\n[PASS] Gate 2: Smart Contract verified (SomniaPerpVault.sol) (+25)\n[PASS] Gate 3: Native MCP Tools schema verified (+20)\n[PASS] Gate 4: Interactive Launchpad UI verified (+15)\n[PASS] Gate 5: CI/CD Pipeline & Zero Key Exposure verified (+15)\n----------------------------------------------------------------------\nFINAL REALITY VERIFICATION SCORE: 100/100\nVERDICT: 100/100 GENUINE GREEN - READY FOR PRODUCTION & HACKATHON\n======================================================================\n"
+}
