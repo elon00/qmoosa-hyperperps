@@ -1,0 +1,66 @@
+{
+  "mcpServers": {
+    "qmoosa-hyperperps": {
+      "tools": [
+        {
+          "name": "evaluate_perp_risk",
+          "description": "Calculates health factor, maintenance margin, and liquidation point on Somnia dreamDEX",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "position_size": {
+                "type": "number"
+              },
+              "margin": {
+                "type": "number"
+              },
+              "entry_price": {
+                "type": "number"
+              },
+              "is_long": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "position_size",
+              "margin",
+              "entry_price",
+              "is_long"
+            ]
+          }
+        },
+        {
+          "name": "execute_dreamdex_order",
+          "description": "Submits a risk-bounded order to Somnia dreamDEX testnet",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "symbol": {
+                "type": "string"
+              },
+              "side": {
+                "type": "string",
+                "enum": [
+                  "BUY",
+                  "SELL"
+                ]
+              },
+              "amount": {
+                "type": "number"
+              },
+              "limit_price": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "symbol",
+              "side",
+              "amount",
+              "limit_price"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
