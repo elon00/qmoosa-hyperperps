@@ -1,0 +1,59 @@
+{
+  "engine": "REA_Reverse_Engineer_Anything",
+  "status": "STRUCTURE_RECONSTRUCTED",
+  "analyzed_files": 17,
+  "manifest": {
+    "ARCHITECTURE_BOOK.md": {
+      "bytes": 1065
+    },
+    "Cargo.toml": {
+      "bytes": 94
+    },
+    "index.html": {
+      "bytes": 14837
+    },
+    "mcp.json": {
+      "bytes": 1698
+    },
+    "README.md": {
+      "bytes": 1800
+    },
+    "WHITEPAPER.md": {
+      "bytes": 1934
+    },
+    "contracts\\SomniaPerpVault.sol": {
+      "bytes": 2076
+    },
+    "reports\\audit_evidence.json": {
+      "bytes": 1233
+    },
+    "scripts\\rea_inspector.py": {
+      "bytes": 1485
+    },
+    "scripts\\rsi_engine.py": {
+      "bytes": 2039
+    },
+    "src\\dreamdex_bot.py": {
+      "bytes": 1250
+    },
+    "src\\main.rs": {
+      "bytes": 2796
+    },
+    "tests\\reality_check_harness.py": {
+      "bytes": 1250
+    },
+    "tests\\test_suite.py": {
+      "bytes": 1334
+    },
+    "tests\\__init__.py": {
+      "bytes": 0
+    },
+    ".github\\workflows\\ci-cd-pipeline.yml": {
+      "bytes": 733
+    },
+    ".github\\workflows\\qmoosa-rsi-rea-sync.yml": {
+      "bytes": 531
+    }
+  },
+  "timestamp": 1794023087
+}
